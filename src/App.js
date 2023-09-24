@@ -1,24 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-
+// document.querySelector("a-marker").addEventListener("markerFound", () => {
+//   alert("found")
+// })
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='ar-container'>
+      
+      </div>
+      <button>
+        Hello
+      </button><br/>
+      https://f177-2409-4073-413-d63f-1d30-5954-aecb-9b87.ngrok-free.app
+            </div>
+    
+    
   );
 }
 
