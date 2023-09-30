@@ -15,7 +15,7 @@
     <!-- Include AR.js and A-Frame libraries -->
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
     <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.2/aframe/build/aframe-ar.js"></script>
-    <script src="https://cdn.rawgit.com/donmccurdy/aframe-gltf-part-component/v0.3.0/dist/aframe-gltf-part-component.min.js"></script>
+    <!-- <script src="https://cdn.rawgit.com/donmccurdy/aframe-gltf-part-component/v0.3.0/dist/aframe-gltf-part-component.min.js"></script> -->
 
     <!-- <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" /> -->
 
@@ -27,19 +27,19 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
     
-    <a-scene embedded vr-mode-ui="enabled: false;" arjs="trackingMethod: best; debugUIEnabled: false;" renderer="antialias: false; logarithmicDepthBuffer:true">
-      <a-assets>
-        <a-asset-item id="icm" src="./models/bowl.glb">
-      </a-assets>
-      <a-marker preset="hiro">
+    <!-- <a-scene embedded vr-mode-ui="enabled: false;" arjs="trackingMethod: best; debugUIEnabled: false;" renderer="antialias: false; logarithmicDepthBuffer:true"> -->
+      <!-- <a-assets> -->
+        <!-- <a-asset-item id="icm" src="./models/bowl.glb"> -->
+      <!-- </a-assets> -->
+      <!-- <a-marker preset="hiro"> -->
         <!-- <a-entity gltf-model="https://arjs-cors-proxy.herokuapp.com/https://tests.offtopicproductions.com/ywca.gltf"></a-entity> -->
-        <a-entity gltf-model="#icm" position="0 0.5 0" scale="0.5 0.5 0.5" rotate="-90 -90 60"></a-entity>
+        <!-- <a-entity gltf-model="#icm" position="0 0.5 0" scale="0.5 0.5 0.5" rotate="-90 -90 60"></a-entity> -->
         <!-- <a-box position="0 0.5 0" material="color: red;"></a-box> -->
-      </a-marker>
+      <!-- </a-marker> -->
       
-      <a-entity camera></a-entity>
+      <!-- <a-entity camera></a-entity> -->
       <!-- <img src="./hiro_marker.png"> -->
-      </a-scene>
+      <!-- </a-scene> -->
       <div id="root"></div>
     </body>
 </html>
