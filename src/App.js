@@ -22,7 +22,6 @@ function App() {
       </div>
       <div className='camera-overlay'>
         <img src='./media/foodsee_logo.png'/>
-        https://844d-2409-4073-4e0b-63b2-f6dd-4b84-3fa8-30bd.ngrok-free.app
       </div>
       <br/>
          
